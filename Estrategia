@@ -1,0 +1,2 @@
+Estrategias de tecnologías que se puedan aplicar para la Definición de variables y estructuras de datos.
+Se necesitarían variables para almacenar información sobre cada producto (nombre, código, tipo, etc.), los certificados requeridos (tipo de certificado, número, fecha de emisión, etc.), y las regulaciones de cada país (país destino, normativas técnicas, requisitos de etiquetado, etc.). Se podrían usar estructuras de datos como arrays o diccionarios para organizar esta información eficientemente
