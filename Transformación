@@ -1,0 +1,25 @@
+Definición de variables y estructuras de datos.
+Se necesitarían variables para almacenar información sobre cada producto (nombre, código, tipo, etc.), los certificados requeridos (tipo de certificado, número, fecha de emisión, etc.), y las regulaciones de cada país (país destino, normativas técnicas, requisitos de etiquetado, etc.). Se podrían usar estructuras de datos como arrays o diccionarios para organizar esta información eficientemente. Por ejemplo:
+
+Text
+producto = {
+  "nombre": "Jabón líquido",
+  "codigo": "12345",
+  "tipo": "Aseo personal",
+  "certificados": [
+    {"tipo": "Libre venta", "numero": "67890"},
+    {"tipo": "Origen", "numero": "13579"}
+  ],
+  "paises_destino": ["Uruguay", "España"]
+}
+Creación de funciones para gestionar la información.
+Se necesitarían funciones para:
+
+obtener_certificados(producto, pais): Esta función devolvería una lista de los certificados necesarios para un producto dado en un país específico.
+verificar_normativas(producto, pais): Esta función verificaría si un producto cumple con las normativas técnicas y de etiquetado de un país dado.
+generar_reporte(productos): Esta función generaría un reporte que resume la información de todos los productos, incluyendo sus certificados y el cumplimiento de las normativas.
+Implementación de ciclos para procesar la información.
+Se utilizarían ciclos (bucles) para iterar sobre la lista de productos y aplicar las funciones definidas en el Paso 2. Por ejemplo, un bucle podría iterar sobre cada producto y generar un reporte individual para cada uno.
+
+Exportación de datos.
+Finalmente, se necesitaría una función para exportar los datos en un formato adecuado, como un archivo CSV o JSON, para su posterior uso o análisis.
